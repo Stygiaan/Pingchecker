@@ -1,0 +1,8 @@
+body {
+	-webkit-app-region: drag;
+	background-color: darkgrey;
+}
+
+input {
+	-webkit-app-region: no-drag;
+}

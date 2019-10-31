@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Pingchecker</title>
+
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+
+<body>
+	<ul id="ping-display" style="display: flex">
+		<div style="border: 1px solid; flex: 1">
+			<p>8.8.8.8:</p>
+			<p class="ping-display"></p>
+		</div>
+	</ul>
+	<form id="address-form">
+		<input type="text" placeholder="8.8.8.8" id="address-input" required><br>
+		<input type="submit" value="Add IP">
+	</form>
+
+	<script>window.$ = window.jQuery = require('jquery');</script>
+	<!-- <script>require('bootstrap');</script> -->
+	<!-- <script src="./index.js"></script> -->
+</body>
+
+</html>

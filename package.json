@@ -1,0 +1,18 @@
+{
+  "name": "pingchecker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "hallo": "node pingsender-test.js"
+  },
+  "author": "Avid Frderich",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "jquery": "3.4.1",
+    "ping": "0.2.2"
+  }
+}
